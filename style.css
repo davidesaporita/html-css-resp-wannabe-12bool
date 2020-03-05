@@ -70,7 +70,6 @@ img{
 
 @media screen and (max-width: 419px) {
 
-  /* General | Breakpoint 0 ~ 419px */
   body {
     margin: 0;
   }
@@ -80,7 +79,6 @@ img{
     width: 150px;
   }
 
-  /* Typography | Breakpoint 0 ~ 419px */
   h1 {
     font-size: 300%;
   }
@@ -94,7 +92,6 @@ img{
     margin-top: 30px;
   }
 
-  /* Utilites | Breakpoint 0 ~ 419px */
   .container {
     width: 95%;
     padding: 2.5%;
@@ -110,7 +107,6 @@ img{
     padding: 10px 0;
   }
 
-  /* Main content | Breakpoint 0 ~ 419px */
   #lezioni .row > .left,
   #lezioni .row > .right,
   #steps .row > .left,
@@ -125,8 +121,7 @@ img{
   }
 }
 
-@media screen and (min-width: 419px) and (max-width: 1023px) {
-  /* General | Breakpoint 420px ~ 1023px */
+@media screen and (min-width: 420px) and (max-width: 1023px) {
   body {
     margin: 0;
   }
@@ -136,7 +131,6 @@ img{
     width: 200px;
   }
 
-  /* Typography | Breakpoint 420px ~ 1023px */
   h1 {
     font-size: 250%;
   }
@@ -150,7 +144,6 @@ img{
     margin-top: 30px;
   }
 
-  /* Utilites | Breakpoint 420px ~ 1023px */
   .container {
     width: 95%;
     padding: 2.5%;
@@ -160,13 +153,12 @@ img{
     width: 96%;
     padding: 25px 2%;
     margin-top: 50px;
-  } 
+  }
 
   .row *:not(hr) {
     padding: 10px 0;
   }
 
-  /* Main content | Breakpoint 420px ~ 1023px */
   #lezioni .row > .left,
   #lezioni .row > .right {
     width: 100%;
